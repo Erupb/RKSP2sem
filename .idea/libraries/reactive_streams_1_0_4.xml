@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="reactive-streams-1.0.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/prac3/reactive-streams-1.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

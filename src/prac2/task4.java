@@ -7,6 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static prac2.task3.sum;
+
 public class task4 {
     public static void readLines(Map<Path, List<String>> fileList, Path filePath){
         if(Files.exists(filePath)){
@@ -64,6 +66,7 @@ public class task4 {
                 }
                 if(event.kind() == StandardWatchEventKinds.ENTRY_DELETE){
                     Path filePath = Paths.get("src//prac2//taskFour" + event.context());
+                    //System.out.println(sum(filePath));
                     fileList.remove(filePath);
                 }
             }
